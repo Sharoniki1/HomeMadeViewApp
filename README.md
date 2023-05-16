@@ -15,7 +15,8 @@ Perfect
 
 After answers submitted, the answers will receive to activity for continuous usage.
 
-Screenshot 2023-05-16 112010
+<img width="173" alt="Screenshot 2023-05-16 112010" src="https://github.com/Sharoniki1/HomeMadeViewApp/assets/68810288/bd484a3b-c905-4d2f-801f-6c3bf077141c">
+
 
 Setup
 
