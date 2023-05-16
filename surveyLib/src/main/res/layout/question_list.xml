@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="20dp"
+    android:backgroundTint="@color/black">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/question_LBL_question"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            app:cardCornerRadius="70dp"
+            app:cardElevation="10dp"
+            android:backgroundTint="@color/black">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/question_BAR_custombar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/question_BTN_notatallbtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Not at all"
+                    android:backgroundTint="@color/md_red_500"
+                    android:textSize="10sp"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/question_BTN_insomelevel"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="In some level"
+                    android:backgroundTint="@color/md_orange_400"
+                    android:textSize="10sp"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/question_BTN_mostlyyes"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Mostly yes"
+                    android:backgroundTint="@color/md_yellow_300"
+                    android:textSize="10sp"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/question_BTN_perfect"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Perfect"
+                    android:backgroundTint="@color/md_green_A400"
+                    android:textSize="10sp"/>
+
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</com.google.android.material.card.MaterialCardView>
